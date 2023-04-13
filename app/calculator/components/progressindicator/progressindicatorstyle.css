@@ -1,0 +1,26 @@
+
+#progressList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    list-style-type: none;
+    padding: 2%;
+}
+
+.displayProgressPoint {
+    padding: 5%;
+    background-color: #f1f1b1;
+    border-style: none;
+}
+
+.displayProgressPoint:hover {
+    text-decoration: underline;
+}
+
+.allDone {
+    padding: 5%;
+    background-color: #f1f1b1;
+    text-decoration: line-through;
+}
+
+
