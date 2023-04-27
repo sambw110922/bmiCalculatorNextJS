@@ -57,8 +57,8 @@ export default function CalculateResults(props){
             return(
                 <div>
                     <p>Your BMI is:</p>
-                    <p>{ bmiValue }</p>
-                    <h3>{ DisplayBMIEValRange() }</h3>
+                    <h3 className="bmiRange">{ bmiValue }</h3>
+                    <h3 className="bmiRange">{ DisplayBMIEValRange() }</h3>
                 </div>
             );
 
@@ -121,7 +121,7 @@ export default function CalculateResults(props){
                 partType={speicalPartType}
             ></ProgressIndicator>
 
-            <button onClick={ CalculateResults  }>Calculate</button>
+            <button id="btnCalculate" onClick={ CalculateResults  }>Calculate</button>
 
             {
                 DisplayBMIResults()

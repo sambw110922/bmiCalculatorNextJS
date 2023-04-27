@@ -2,7 +2,8 @@
 html, body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, #ffffff 20%, #2f2bee);
+    background-color: #F2575E;
+    color: #4A484A;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
@@ -13,7 +14,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
-    background-color: #ffffff;
+    background-color: #F4F2F4;
 }
 
 section {
@@ -23,6 +24,28 @@ section {
 
 form {
     margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mainButtonStyle {
+    background-color: #005AB4;
+    color: #ffffff;
+    font-weight: bold;
+    border-style: solid;
+    margin: 2%;
+    border-radius: 2px;
+    border-color: black;
+    padding: 2%;
+}
+
+.mainButtonStyle:hover {
+    text-decoration: underline;
+}
+
+input[type=number] {
+    padding: 2%;
+    margin: 2%;
 }
 
 #btnNext {
@@ -30,9 +53,30 @@ form {
     padding: 2%;
     color: white;
     font-weight: bold;
-    background-color: #5454cc;
+    background-color: #0066A6;
+    border-style: solid;
+    border-color: black;
 }
 
 #btnNext:hover {
     text-decoration: underline;
+}
+
+#btnCalculate {
+    padding: 2%;
+    margin: 2%;
+    border-color: black;
+    border-style: solid;
+    background-color: #00A3AF;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+#btnCalculate:hover {
+    text-decoration: underline;
+}
+
+.bmiRange {
+    font-size: 2em;
 }

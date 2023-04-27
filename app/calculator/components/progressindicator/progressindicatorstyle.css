@@ -9,7 +9,9 @@
 
 .displayProgressPoint {
     padding: 5%;
-    background-color: #f1f1b1;
+    background-color: #A1D54F;
+    color: #4A484A;
+    font-weight: bold;
     border-style: none;
 }
 
@@ -19,7 +21,9 @@
 
 .allDone {
     padding: 5%;
-    background-color: #f1f1b1;
+    background-color: #A1D54F;
+    color: #4A484A;
+    font-weight: bold;
     text-decoration: line-through;
 }
 

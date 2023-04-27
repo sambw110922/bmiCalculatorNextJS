@@ -71,8 +71,8 @@ export default function ReviewPanel(props){
                         <input name="txtStone" type="number" />
                         <label>Pounds:</label>
                         <input name="txtPounds" type="number" />
-                        <input type="reset" />
-                        <input type="submit" value="Save" />
+                        <input type="reset"  className="mainButtonStyle" />
+                        <input type="submit"  className="mainButtonStyle" value="Save" />
                     </form>
                 </div>
 
@@ -92,7 +92,7 @@ export default function ReviewPanel(props){
                         <label>Pounds:</label>
                         <p>{ props.enteredPounds }</p>
                     </div>
-                    <button onClick={ 
+                    <button className="mainButtonStyle" onClick={ 
                         ()=>{
                             setWantsEdit(true);
                             setHasSubmit(false);
@@ -132,8 +132,8 @@ export default function ReviewPanel(props){
                         <input type="number" name="txtCms" />
                         <label>Weight (kgs):</label>
                         <input type="number" name="txtKgs" />
-                        <input type="reset" value="Reset" />
-                        <input type="submit" value="Save" />
+                        <input type="reset" className="mainButtonStyle" value="Reset" />
+                        <input type="submit" className="mainButtonStyle" value="Save" />
                     </form>
                 </div>
             );
@@ -148,7 +148,7 @@ export default function ReviewPanel(props){
                         <label>Kgs:</label>
                         <p>{ props.enteredKgs }</p>
                     </div>
-                    <button onClick={ 
+                    <button  className="mainButtonStyle" onClick={ 
                         ()=>{
                             setWantsEdit(true);
                             setHasSubmit(false);

@@ -44,8 +44,8 @@ export default function MetricForm(props){
                 <input type="number" step="0.1" min="0" name="txtCms" required />
                 <label>Kgs</label>
                 <input type="number" step="0.1" min="0"  name="txtKgs" required />
-                <input type="reset" value="Reset" />
-                <input type="submit" value="Confirm" />
+                <input type="reset"  className="mainButtonStyle" value="Reset" />
+                <input type="submit" className="mainButtonStyle" value="Confirm" />
             </form>
 
             <button id="btnNext" onClick={ ()=>{

@@ -9,8 +9,6 @@ import ProgressIndicator from "../progressindicator/progressindicator";
 //  Conversion calculator.
 import ImperialConversionCalculator from "../imperialConversion/imperialConversionCalculator";
 
-//  css
-import "./imperialstyle.css";
 
 export default function ImperialForm(props){
 
@@ -55,8 +53,8 @@ export default function ImperialForm(props){
                 <input type="number" name="txtStone" min="0" step="0.1"  required />
                 <label>Pounds</label>
                 <input type="number" name="txtPounds" min="0" step="0.1"  required />
-                <input type="reset" value="Reset" />
-                <input type="submit" value="Confirm" />
+                <input type="reset"  className="mainButtonStyle" value="Reset" />
+                <input type="submit"  className="mainButtonStyle" value="Confirm" />
             </form>
 
             <button id="btnNext" onClick={ 

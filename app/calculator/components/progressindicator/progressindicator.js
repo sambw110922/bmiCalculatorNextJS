@@ -48,7 +48,7 @@ export default function ProgressIndicator(props){
                     <>
                         <button onClick={ 
                             ()=>{
-                                props.choosPart(1);
+                                props.choosePart(1);
                             }
                          } className="displayProgressPoint" >Select Measurements</button>
                         <button onClick={ 
